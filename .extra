@@ -6,7 +6,9 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="jleajones@gmail.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
-
 git config --global push.default simple
+
+# This will change per device
 git config --global user.signingkey 451EF6BA9F2964F4
+# May need to be updated to gpg1 or gpg2
 git config --global gpg.program gpg
