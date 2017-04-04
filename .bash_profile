@@ -4,7 +4,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 if which phpenv > /dev/null; then eval "$(phpenv init -)"; fi
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
-export GPG_TTY=$(tty)
+export GPG_TTY=$(tty);
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
