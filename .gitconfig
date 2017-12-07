@@ -58,7 +58,7 @@
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
   # Remove all branches but staging
-  cb = "!git branch | grep -v 'DEV' | xargs -n 1 git branch -D"
+  cb = "!git branch | grep -vE 'DEV|QA|MASTER' | xargs -n 1 git branch -D"
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
