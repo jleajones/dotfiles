@@ -166,6 +166,6 @@ alias reload="exec $SHELL -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # DailyMotion App
-alias rundev="clear && yarn dev"
-alias runserver="clear && yarn run-local-server"
+alias buildapp="clear && yarn dev"
+alias runapp="clear && yarn run-local-server"
 alias runtest="clear && yarn test"
