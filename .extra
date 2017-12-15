@@ -11,4 +11,4 @@ git config --global push.default simple
 # This will change per device
 git config --global user.signingkey 316E2C1C6A24ADED
 # May need to be updated to gpg1 or gpg2
-git config --global gpg.program gpg2
+git config --global gpg.program gpg
