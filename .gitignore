@@ -14,10 +14,4 @@ Thumbs.db
 .Trashes
 
 # Jetbrains files
-/.idea/.name
-/.idea/dotfiles.iml
-/.idea/encodings.xml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
-/.idea/workspace.xml
+.idea
