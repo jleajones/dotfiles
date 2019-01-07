@@ -1,5 +1,6 @@
 # Compiled Python files
 *.pyc
+.extra
 
 # Folder view configuration files
 .DS_Store
@@ -15,4 +16,3 @@ Thumbs.db
 
 # Jetbrains files
 .idea
-.extra
