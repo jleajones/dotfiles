@@ -33,7 +33,15 @@ export MANPAGER='less -X';
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 
 # Hide the “default interactive shell is now zsh” warning on macOS.
 export BASH_SILENCE_DEPRECATION_WARNING=1;
+
+# GO Path
+export GOPATH="$HOME/golang"
+export GOROOT="/usr/local/opt/go/libexec"
+
+# NODE Path
+export NODE_PATH="$(npm root -g)"

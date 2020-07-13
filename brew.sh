@@ -93,6 +93,7 @@ brew install imagemagick --with-webp
 brew install lua
 brew install lynx
 brew install node
+brew install nvm
 brew install p7zip
 brew install pigz
 brew install pv

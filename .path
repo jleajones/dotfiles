@@ -1,4 +1,2 @@
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
-export GOPATH=$HOME/golang
-export NODE_PATH="$(npm root -g)"
 export PATH=$PATH:$GOPATH/bin
