@@ -42,6 +42,3 @@ export BASH_SILENCE_DEPRECATION_WARNING=1;
 # GO Path
 export GOPATH="$HOME/golang"
 export GOROOT="/usr/local/opt/go/libexec"
-
-# NODE Path
-export NODE_PATH="$(npm root -g)"
